@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="news_today">News Today</string>
+    <string name="technology">TECHNOLOGY</string>
+    <string name="sports">SPORTS</string>
+    <string name="national">NATIONAL</string>
+    <string name="international">INTERNATIONAL</string>
+    <string name="home">HOME</string>
+    <string name="contains_fragments">contains fragments</string>
+    <string name="entertainment">ENTERTAINMENT</string>
+    <string name="news_today1">NEWS TODAY</string>
+    <string name="specific_news">SPECIFIC NEWS</string>
+    <string name="contains_fragments1">Contains fragments</string>
+</resources>
