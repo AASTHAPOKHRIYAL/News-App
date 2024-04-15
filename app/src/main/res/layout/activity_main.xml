@@ -28,9 +28,9 @@
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/madimi"
-                    android:paddingLeft="20dp"
+                    android:paddingStart="20dp"
                     android:paddingTop="15dp"
-                    android:text="NEWS FEED"
+                    android:text="@string/news_feed"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold">
@@ -41,7 +41,8 @@
                     android:layout_height="50dp"
                     app:srcCompat="@drawable/worldnews"
                     android:paddingTop="15dp"
-                    android:paddingRight="20dp">
+                    android:paddingEnd="20dp"
+                    android:contentDescription="@string/image_in_header">
                 </ImageView>
 
 
@@ -89,14 +90,14 @@
             android:id="@+id/business"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BUSINESS">
+            android:text="@string/business">
         </com.google.android.material.tabs.TabItem>
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/health"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="HEALTH">
+            android:text="@string/health">
         </com.google.android.material.tabs.TabItem>
 
         <com.google.android.material.tabs.TabItem

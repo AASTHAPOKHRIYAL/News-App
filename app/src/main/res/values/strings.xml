@@ -11,4 +11,10 @@
     <string name="news_today1">NEWS TODAY</string>
     <string name="specific_news">SPECIFIC NEWS</string>
     <string name="contains_fragments1">Contains fragments</string>
+    <string name="image_in_header">Image in header</string>
+    <string name="business">BUSINESS</string>
+    <string name="health">HEALTH</string>
+    <string name="news_feed">NEWS FEED</string>
+    <string name="header_image">Header image</string>
+    <string name="know_more">KNOW MORE</string>
 </resources>

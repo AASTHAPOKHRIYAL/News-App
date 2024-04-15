@@ -3,9 +3,6 @@ package com.example.newsapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
-
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.widget.RelativeLayout;
 
@@ -61,16 +58,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tab));
-    }
-
-    @Override
-    public void onBackPressed() {
-        new AlertDialog.Builder(this).setMessage("Are you sure you wish to exit?").setCancelable(false).setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                })
-                .setNegativeButton("No", null).show();
     }
 }
